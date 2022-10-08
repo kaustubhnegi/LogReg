@@ -9,7 +9,7 @@ var corsOption ={
     origin : "http://localhost:8081"
 };
 
-const asm =10;
+
 // CORS is a node.js package for providing a Connect/Express middleware 
 // that can be used to enable CORS with various options.
 app.use(cors(corsOptions));
